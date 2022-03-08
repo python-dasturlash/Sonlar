@@ -1,0 +1,5 @@
+n = int(input("n = "))
+F1 = 0;  F2 = 1
+while n >= F2:
+    print(F2,end=' ')
+    F1, F2 = F2, F1 + F2
